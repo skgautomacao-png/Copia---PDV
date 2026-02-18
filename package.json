@@ -1,0 +1,25 @@
+
+{
+  "name": "skg-sales-ops-auditor",
+  "version": "1.0.0",
+  "description": "SK-G Sales Ops Auditor - Mentora Dani Martins",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./output.css --minify",
+    "dev": "tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "lucide-react": "^0.574.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
